@@ -1,0 +1,6 @@
+You will be given a question about a video. You are provided frames from the video, sampled evenly across the video.
+
+Transcript: <<<asr>>>
+Question: <<<question>>>
+
+Respond to the user's question.

@@ -1,0 +1,4 @@
+working_dir: ./
+excludes: ["/.git/", "data/", "outputs", "checkpoints", "verl_step_records"]
+env_vars:
+  TORCH_NCCL_AVOID_RECORD_STREAMS: "1"

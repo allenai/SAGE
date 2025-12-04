@@ -1,0 +1,5 @@
+You will be given a question about a video. You are provided frames from the video, sampled evenly across the video.
+
+Question: <<<question>>>
+
+Respond to the user's question. Think carefull before answering within the <think>...</think> tags. Put the final answer between the <answer> and </answer> tags.

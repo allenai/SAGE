@@ -1,0 +1,10 @@
+export SERPER_API_KEY="YOUR_SERPER_API_KEY"
+
+export TOOL_CALL_MODEL="Qwen/Qwen3-VL-30B-A3B-Instruct"
+export VLLM_CLIENT_URL="vLLM_API_URL_FOR_TOOL_CALLING"
+export TRANSCRIBE_API_URL="API_URL_FOR_TRANSCRIPTION"
+export VIDEO_DIR="sage/serve/examples"
+
+export MODEL="allenai/SAGE-MM-Qwen3-VL-8B-SFT_RL"
+
+CUDA_VISIBLE_DEVICES=0 python sage/serve/demo.py sage:$MODEL

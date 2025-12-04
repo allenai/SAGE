@@ -1,0 +1,18 @@
+Given the below event, identify the timestamps for the event in the video.
+You are given the snippet belonging to the period between <<<begin>>> and <<<end>>> (in HH:MM:SS format) of the original video.
+You should set the start and end timestamps in your answer accordingly to align it to the original video.
+If the event does not occur, set start and end to null.
+
+Event:
+<<<event>>>
+
+Output Format. You MUST follow this format and MUST be between the <json> and </json> tags:
+<json>
+{
+  "name": "the name of the event",
+  "timestamps": {
+    "start": "start_time", #HH:MM:SS
+    "end": "end_time" #HH:MM:SS
+  }
+}
+</json>

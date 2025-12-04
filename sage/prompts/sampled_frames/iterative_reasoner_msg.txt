@@ -1,0 +1,21 @@
+Information from previous reasoning step:
+<<<tool_results>>>
+
+Visual Context:
+<<<visual_context>>>
+
+Query: <<<query>>>
+Video Path: <<<video_path>>> of total duration <<<video_duration>>> seconds (<<<timestamp_format>>> in HH:MM:SS format).
+
+the available tools are:
+
+<<<tools>>>
+
+Tools already invoked (list of <tool_name>_<tool_call_id> and their results) which haven't been able to answer the query directly:
+<<<tools_so_far>>>
+
+Remember that the "identify_timestamps_visually" and "verbal_transcript" tool calls 
+accept "timestamp_start" and "timestamp_end" as arguments to only process 
+a particular subclip of the video to prevent long processing time, so you may need to call these
+multiple times with unique arguments to ensure exhaustive analysis of the video.
+However, you should try and avoid parsing through the whole video with a sequence of these tool calls unless necessary.

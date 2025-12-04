@@ -1,0 +1,9 @@
+You will be given a question about a video and five possible answer options. 
+You are provided frames from the video, sampled evenly across the video.
+
+Transcript: <<<asr>>>
+Question: <<<question>>>
+
+Possible answer choices: <<<answer choices>>>
+
+Output the final answer in the format “Final Answer: (X)” where X is the correct digit choice. DO NOT OUTPUT text or any other words with the full answer.

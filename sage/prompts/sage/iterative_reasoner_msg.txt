@@ -1,0 +1,9 @@
+The <<<previous_tool_call>>> tool was called in the previous reasoning step.
+
+Context of the video: <<<visual_context>>>
+
+Query: <<<query>>>
+<<<video_info>>>
+
+Tools already invoked (list of <tool_name>_<tool_call_id> and their results):
+<<<tools_so_far>>>
